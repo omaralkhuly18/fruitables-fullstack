@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -29,12 +29,13 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_ar.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Spinner Start -->
-    <div id="spinner"
+    <div style="direction: rtl;" id="spinner"
         class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
@@ -42,7 +43,7 @@
 
 
     <!-- Navbar start -->
-    <div class="container-fluid fixed-top">
+    <div style="direction: rtl;" class="container-fluid fixed-top">
         <div class="container topbar bg-primary d-none d-lg-block">
             <div class="d-flex justify-content-between">
                 <div class="top-info ps-2">
@@ -68,7 +69,7 @@
             <nav class="navbar navbar-light bg-white navbar-expand-xl">
                 <a href="index.html" class="navbar-brand">
                     <!-- <h1 class="text-primary display-6">Fruitables</h1> -->
-                    <img class="logo_web" src="img/favicon-logo-fruit.png" alt="">
+                    <img class="logo_web" src="img/favicon-logo-fruit.png" alt="favicon">
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -101,10 +102,10 @@
                     </div>
                     <div class="d-flex m-3 me-0">
                         <button
-                            class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4"
+                            class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white ms-4"
                             data-bs-toggle="modal" data-bs-target="#searchModal"><i
                                 class="fas fa-search text-primary"></i></button>
-                        <a href="#" class="position-relative me-4 my-auto">
+                        <a href="#" class="position-relative ms-4 my-auto">
                             <i class="fa fa-shopping-bag fa-2x"></i>
                             <span
                                 class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1"
@@ -122,7 +123,8 @@
 
 
     <!-- Modal Search Start -->
-    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div style="direction: rtl;" class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
@@ -143,7 +145,7 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid py-5 mb-5 hero-header">
+    <div style="direction: rtl;" class="container-fluid py-5 mb-5 hero-header">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-md-12 col-lg-7">
@@ -154,7 +156,7 @@
                             placeholder=" يبحث ">
                         <button type="submit"
                             class="btn btn-primary border-2 border-secondary py-3 px-4 position-absolute rounded-pill text-white h-100"
-                            style="top: 0; right: 25%;"> أرسل الآن </button>
+                            style="top: 0; left: 25%;"> أرسل الآن </button>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-5">
@@ -189,7 +191,7 @@
 
 
     <!-- Featurs Section Start -->
-    <div class="container-fluid featurs py-5">
+    <div style="direction: rtl;" class="container-fluid featurs py-5">
         <div class="container py-5">
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
@@ -243,7 +245,7 @@
 
 
     <!--  الفاكهه  Shop Start-->
-    <div class="container-fluid fruite py-5">
+    <div style="direction: rtl;" class="container-fluid fruite py-5">
         <div class="container py-5">
             <div class="tab-class text-center">
                 <div class="row g-4">
@@ -475,7 +477,9 @@
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                                                 <h4> العنب </h4>
                                                 <p>
-                                                    العنب هو فاكهة لذيذة وغنية بالعناصر الغذائية
+                                                    يُعتبر العنب العضوي غالبًا أكثر نكهة وفاعلية بالمقارنة مع العنب
+                                                    المعالج بالمواد الكيميائية، حيث يحتفظ بطعمه الطبيعي وفوائده
+                                                    الغذائية.
                                                 </p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -566,8 +570,11 @@
                                                 style="top: 10px; left: 10px;"> الفاكهه </div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                                                 <h4> البرتقال </h4>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                                    eiusmod te incididunt</p>
+                                                <p>
+                                                    يتم تقييم المنتجات العضوية وفقًا لمعايير محددة ويمكن أن تكون معتمدة
+                                                    من قبل هيئات تنظيمية مثل USDA Organic في الولايات المتحدة أو EU
+                                                    Organic في الاتحاد الأوروبي.
+                                                </p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                                     <a href="#"
@@ -588,15 +595,20 @@
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
                                                 style="top: 10px; left: 10px;"> الفاكهه </div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Apple</h4>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                                    eiusmod te incididunt</p>
+                                                <h4>
+                                                    التفاح
+                                                </h4>
+                                                <p>
+                                                    يتم زراعة التفاح العضوي باستخدام أساليب زراعية تتجنب استخدام المواد
+                                                    الكيميائية الصناعية مثل المبيدات والأسمدة الصناعية.
+                                                </p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                                     <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                            class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        أضف إلى السله
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -644,8 +656,12 @@
                                                 style="top: 10px; left: 10px;"> الفاكهه </div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                                                 <h4> المشمش </h4>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                                    eiusmod te incididunt</p>
+                                                <p>
+                                                    يتم زراعة المشمش العضوي باستخدام أساليب زراعية تستبعد استخدام المواد
+                                                    الكيميائية الصناعية مثل المبيدات والأسمدة الصناعية. يتم التركيز
+                                                    بدلاً من ذلك على استخدام التسميد العضوي وتقنيات مكافحة الآفات
+                                                    البيولوجية.
+                                                </p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                                     <a href="#"
@@ -700,7 +716,9 @@
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                                                 <h4> العنب </h4>
                                                 <p>
-                                                    يُمكن أن تكون زراعته عضويةً مفيدة للبيئة وصحية للإنسان
+                                                    حظر معظم المبيدات الكيميائية الصناعية في زراعة العنب العضوي. يتم
+                                                    التركيز بدلاً من ذلك على الاستخدام المكثف للحلول البيولوجية
+                                                    والتقنيات المبتكرة لمكافحة الآفات والأمراض.
                                                 </p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -750,7 +768,7 @@
 
 
     <!-- Featurs Start -->
-    <div class="container-fluid service py-5">
+    <div style="direction: rtl;" class="container-fluid service py-5">
         <div class="container py-5">
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
@@ -759,8 +777,12 @@
                             <img src="img/featur-1.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="px-4 rounded-bottom">
                                 <div class="service-content bg-primary text-center p-4 rounded">
-                                    <h5 class="text-white">Fresh Apples</h5>
-                                    <h3 class="mb-0">20% OFF</h3>
+                                    <h5 class="text-white">
+                                        التفاح الطازج
+                                    </h5>
+                                    <h3 class="mb-0">
+                                        20٪ خصم
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -772,8 +794,12 @@
                             <img src="img/featur-2.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="px-4 rounded-bottom">
                                 <div class="service-content bg-light text-center p-4 rounded">
-                                    <h5 class="text-primary">Tasty  الفاكهه </h5>
-                                    <h3 class="mb-0">Free delivery</h3>
+                                    <h5 class="text-primary">
+                                        الفاكهه اللذيذة
+                                    </h5>
+                                    <h3 class="mb-0">
+                                        توصيل مجاني
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -785,8 +811,12 @@
                             <img src="img/featur-3.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="px-4 rounded-bottom">
                                 <div class="service-content bg-secondary text-center p-4 rounded">
-                                    <h5 class="text-white">Exotic Vegitable</h5>
-                                    <h3 class="mb-0">Discount 30$</h3>
+                                    <h5 class="text-white">
+                                        الخضار الغريبة
+                                    </h5>
+                                    <h3 class="mb-0">
+                                        خصم 30$
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -801,17 +831,27 @@
     <!-- Vesitable Shop Start-->
     <div class="container-fluid vesitable py-5">
         <div class="container py-5">
-            <h1 class="mb-0">Fresh Organic Vegetables</h1>
+            <h1 class="mb-0 text_rtl">
+                الخضروات العضوية الطازجة
+            </h1>
             <div class="owl-carousel vegetable-carousel justify-content-center">
                 <div class="border border-primary rounded position-relative vesitable-item">
                     <div class="vesitable-img">
                         <img src="img/vegetable-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Vegetable</div>
+                        style="top: 10px; right: 10px;">
+                        الخضروات
+                    </div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Parsely</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                        <h4>
+                            بَقدونس
+                        </h4>
+                        <p>
+                            يمكن زراعة البقدونس العضوي باستخدام أساليب زراعية تستبعد استخدام المبيدات والأسمدة
+                            الكيميائية الصناعية. تشمل هذه الأساليب استخدام التسميد العضوي وتقنيات مكافحة الآفات
+                            البيولوجية.
+                        </p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                             <a href="cart.html" class="btn border border-secondary rounded-pill px-3 text-primary"><i
@@ -824,10 +864,18 @@
                         <img src="img/vegetable-item-1.jpg" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Vegetable</div>
+                        style="top: 10px; right: 10px;">
+                        الخضروات
+                    </div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Parsely</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                        <h4>
+                            طماطم
+                        </h4>
+                        <p>
+                            تُزرع الطماطم العضوية باستخدام أساليب زراعية تستبعد استخدام المبيدات والأسمدة الكيميائية
+                            الصناعية. يتم التركيز بدلاً من ذلك على استخدام التسميد العضوي وتقنيات مكافحة الآفات
+                            البيولوجية.
+                        </p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                             <a href="cart.html" class="btn border border-secondary rounded-pill px-3 text-primary"><i
@@ -842,7 +890,9 @@
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
                         style="top: 10px; right: 10px;"> الخضار </div>
                     <div class="p-4 rounded-bottom">
-                        <h4> الموز </h4>
+                        <h4>
+                            الموز
+                        </h4>
                         <p>
                             بما في ذلك البوتاسيوم والفيتامينات مثل فيتامين C وفيتامين B6 والألياف الغذائية. يتميز الموز
                             بطعمه اللذيذ والحلو وقوامه الكريمي
@@ -859,10 +909,18 @@
                         <img src="img/vegetable-item-4.jpg" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Vegetable</div>
+                        style="top: 10px; right: 10px;">
+                        الخضروات
+                    </div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Bell Papper</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                        <h4>
+                            الفلفل الأخضر
+                        </h4>
+                        <p>
+                            تُزرع الفلفل الأخضر العضوي باستخدام أساليب زراعية تستبعد استخدام المواد الكيميائية الصناعية
+                            مثل المبيدات والأسمدة الكيميائية. يتم التركيز بدلاً من ذلك على استخدام التسميد العضوي
+                            وتقنيات مكافحة الآفات البيولوجية.
+                        </p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                             <a href="cart.html" class="btn border border-secondary rounded-pill px-3 text-primary"><i
@@ -875,10 +933,18 @@
                         <img src="img/vegetable-item-5.jpg" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Vegetable</div>
+                        style="top: 10px; right: 10px;">
+                        الخضروات
+                    </div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Potatoes</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                        <h4>
+                            بطاطا
+                        </h4>
+                        <p>
+                            تُزرع البطاطا العضوية باستخدام أساليب زراعية تستبعد استخدام المواد الكيميائية الصناعية مثل
+                            المبيدات والأسمدة الكيميائية. يتم التركيز بدلاً من ذلك على استخدام التسميد العضوي وتقنيات
+                            مكافحة الآفات البيولوجية.
+                        </p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                             <a href="cart.html" class="btn border border-secondary rounded-pill px-3 text-primary"><i
@@ -891,10 +957,17 @@
                         <img src="img/vegetable-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Vegetable</div>
+                        style="top: 10px; right: 10px;">
+                        الخضروات
+                    </div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Parsely</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                        <h4>
+                            بَقدونس
+                        </h4>
+                        <p>
+                            يُحظر استخدام المبيدات الكيميائية الصناعية في زراعة البقدونس العضوي. بدلاً من ذلك، يُفضل
+                            استخدام الطرق البيولوجية للحفاظ على صحة النبات ومكافحة الآفات.
+                        </p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                             <a href="cart.html" class="btn border border-secondary rounded-pill px-3 text-primary"><i
@@ -907,10 +980,17 @@
                         <img src="img/vegetable-item-5.jpg" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Vegetable</div>
+                        style="top: 10px; right: 10px;">
+                        الخضروات
+                    </div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Potatoes</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                        <h4>
+                            بطاطا
+                        </h4>
+                        <p>
+                            يُحظر استخدام معظم المبيدات الكيميائية الصناعية في زراعة البطاطا العضوية. بدلاً من ذلك، يتم
+                            التركيز على استخدام الطرق البيولوجية والتقنيات المستدامة لمكافحة الآفات والأمراض.
+                        </p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                             <a href="cart.html" class="btn border border-secondary rounded-pill px-3 text-primary"><i
@@ -923,10 +1003,17 @@
                         <img src="img/vegetable-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Vegetable</div>
+                        style="top: 10px; right: 10px;">
+                        الخضروات
+                    </div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Parsely</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                        <h4>
+                            بَقدونس
+                        </h4>
+                        <p>
+                            تهدف الزراعة العضوية إلى الحفاظ على التوازن البيئي والحفاظ على التنوع البيولوجي. تساعد هذه
+                            الممارسات في المحافظة على البيئة وصحة التربة.
+                        </p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                             <a href="cart.html" class="btn border border-secondary rounded-pill px-3 text-primary"><i
@@ -941,17 +1028,24 @@
 
 
     <!-- Banner Section Start-->
-    <div class="container-fluid banner bg-secondary my-5">
+    <div style="direction: rtl;" class="container-fluid banner bg-secondary my-5">
         <div class="container py-5">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
                     <div class="py-4">
-                        <h1 class="display-3 text-white">Fresh Exotic  الفاكهه </h1>
+                        <h1 class="display-3 text-white">
+                            الفاكهة الإستوائيه الطازجه
+                        </h1>
                         <p class="fw-normal display-3 text-dark mb-4">in Our Store</p>
-                        <p class="mb-4 text-dark">The generated Lorem Ipsum is therefore always free from repetition
-                            injected humour, or non-characteristic words etc.</p>
+                        <p class="mb-4 text-dark">
+                            تجد الفواكه الغريبة غالبًا في أقسام الفواكه الطازجة أو قسم المنتجات الاستثنائية و هنا يكون
+                            هناك قسم مخصص للفواكه الغريبة حيث يتم عرضها بشكل بارز لجذب الانتباه وتشجيع الزبائن على
+                            تجربتها.
+                        </p>
                         <a href="shop.html"
-                            class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">BUY</a>
+                            class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">
+                            يشتري
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -974,22 +1068,28 @@
 
 
     <!-- Bestsaler Product Start -->
-    <div class="container-fluid py-5">
+    <div style="direction: rtl;" class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-                <h1 class="display-4">Bestseller Products</h1>
-                <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which
-                    looks reasonable.</p>
+                <h1 class="display-4">
+                    المنتجات الأكثر مبيعا
+                </h1>
+                <p>
+                    بشكل عام، تُعد المنتجات الأكثر مبيعًا هي تلك التي تلبي الاحتياجات الأساسية والمطلوبة بشكل متكرر من
+                    قبل العملاء، وتتميز بالجودة والقيمة المقابلة للسعر.
+                </p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-6 col-xl-4">
                     <div class="p-4 rounded bg-light">
                         <div class="row align-items-center">
                             <div class="col-6">
-                                <img src="img/best-product-1.jpg" class="img-fluid rounded-circle w-100" alt="">
+                                <img src="img/vegetable-item-1.jpg"" class="img-fluid rounded-circle w-100" alt="">
                             </div>
                             <div class="col-6">
-                                <a href="#" class="h5">Organic Tomato</a>
+                                <a href="#" class="h5">
+                                    الطماطم العضوية
+                                </a>
                                 <div class="d-flex my-3">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -1012,7 +1112,9 @@
                                 <img src="img/best-product-2.jpg" class="img-fluid rounded-circle w-100" alt="">
                             </div>
                             <div class="col-6">
-                                <a href="#" class="h5">Organic Tomato</a>
+                                <a href="#" class="h5">
+                                    توت العليق العضوية
+                                </a>
                                 <div class="d-flex my-3">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -1035,7 +1137,9 @@
                                 <img src="img/best-product-3.jpg" class="img-fluid rounded-circle w-100" alt="">
                             </div>
                             <div class="col-6">
-                                <a href="#" class="h5">Organic Tomato</a>
+                                <a href="#" class="h5">
+                                    الموز العضوية
+                                </a>
                                 <div class="d-flex my-3">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -1058,7 +1162,9 @@
                                 <img src="img/best-product-4.jpg" class="img-fluid rounded-circle w-100" alt="">
                             </div>
                             <div class="col-6">
-                                <a href="#" class="h5">Organic Tomato</a>
+                                <a href="#" class="h5">
+                                    المشمش العضوية
+                                </a>
                                 <div class="d-flex my-3">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -1081,7 +1187,9 @@
                                 <img src="img/best-product-5.jpg" class="img-fluid rounded-circle w-100" alt="">
                             </div>
                             <div class="col-6">
-                                <a href="#" class="h5">Organic Tomato</a>
+                                <a href="#" class="h5">
+                                    العنب العضوية
+                                </a>
                                 <div class="d-flex my-3">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -1104,7 +1212,9 @@
                                 <img src="img/best-product-6.jpg" class="img-fluid rounded-circle w-100" alt="">
                             </div>
                             <div class="col-6">
-                                <a href="#" class="h5">Organic Tomato</a>
+                                <a href="#" class="h5">
+                                    التفاح العضوية
+                                </a>
                                 <div class="d-flex my-3">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -1124,7 +1234,9 @@
                     <div class="text-center">
                         <img src="img/fruite-item-1.jpg" class="img-fluid rounded" alt="">
                         <div class="py-4">
-                            <a href="#" class="h5">Organic Tomato</a>
+                            <a href="#" class="h5">
+                                البرتقال العضوية
+                            </a>
                             <div class="d-flex my-3 justify-content-center">
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
@@ -1142,7 +1254,9 @@
                     <div class="text-center">
                         <img src="img/fruite-item-2.jpg" class="img-fluid rounded" alt="">
                         <div class="py-4">
-                            <a href="#" class="h5">Organic Tomato</a>
+                            <a href="#" class="h5">
+                                توت العليق العضوي
+                            </a>
                             <div class="d-flex my-3 justify-content-center">
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
@@ -1160,7 +1274,9 @@
                     <div class="text-center">
                         <img src="img/fruite-item-3.jpg" class="img-fluid rounded" alt="">
                         <div class="py-4">
-                            <a href="#" class="h5">Organic Tomato</a>
+                            <a href="#" class="h5">
+                                الموز العضوي
+                                </a>
                             <div class="d-flex my-3 justify-content-center">
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
@@ -1178,7 +1294,9 @@
                     <div class="text-center">
                         <img src="img/fruite-item-4.jpg" class="img-fluid rounded" alt="">
                         <div class="py-2">
-                            <a href="#" class="h5">Organic Tomato</a>
+                            <a href="#" class="h5">
+                                المشمش العضوية
+                            </a>
                             <div class="d-flex my-3 justify-content-center">
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
@@ -1199,7 +1317,7 @@
 
 
     <!-- Fact Start -->
-    <div class="container-fluid py-5">
+    <div style="direction: rtl;" class="container-fluid py-5">
         <div class="container">
             <div class="bg-light p-5 rounded">
                 <div class="row g-4 justify-content-center">
@@ -1337,7 +1455,7 @@
 
 
     <!-- Footer Start rgb(69 89 91) !important -->
-    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+    <div style="direction: rtl;" class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
         <div class="container py-5">
             <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
                 <div class="row g-4">
@@ -1418,7 +1536,7 @@
     <!-- Footer End -->
 
     <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark py-4">
+    <div style="direction: rtl;" class="container-fluid copyright bg-dark py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">

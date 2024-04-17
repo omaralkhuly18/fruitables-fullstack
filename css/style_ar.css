@@ -1,0 +1,40 @@
+.text_rtl{
+    text-align: right;
+    margin-bottom: 3% !important;
+}
+
+.dropdown-item {
+    text-align: start;
+}
+
+.modal-header {
+    justify-content: space-between !important;
+}
+
+.modal-header .btn-close {
+    margin: 0 !important;
+}
+
+pre,
+code,
+kbd,
+samp {
+    direction: rtl !important;
+}
+
+.owl-carousel.owl-rtl {
+    direction: ltr !important;
+}
+
+.owl-carousel .owl-item {
+    float: right !important;
+}
+
+.owl-carousel .owl-rtl {
+    direction: rtl !important;
+}
+
+.owl-carousel .owl-item,
+.owl-wrapper {
+    float: right;
+}
